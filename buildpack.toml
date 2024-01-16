@@ -19,12 +19,12 @@ api = "0.7"
   homepage = "https://paketo.io/docs/howto/java"
   id = "paketo-buildpacks/java"
   keywords = ["java", "composite"]
-  name = "Paketo Buildpack for Java"
+  name = "Initializ Buildpack for Java"
   version = "{{.version}}"
 
   [[buildpack.licenses]]
     type = "Apache-2.0"
-    uri = "https://github.com/paketo-buildpacks/java/blob/main/LICENSE"
+    uri = "https://github.com/initializ-buildpacks/java/blob/main/LICENSE"
 
 [metadata]
   include-files = ["LICENSE", "NOTICE", "README.md", "buildpack.toml"]
