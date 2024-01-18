@@ -1,5 +1,5 @@
 [[dependencies]]
-  uri = "uri = "docker://gcr.io/paketo-buildpacks/ca-certificates:3.6.7"
+  uri = "docker://gcr.io/paketo-buildpacks/ca-certificates:3.6.7"
 
 [[dependencies]]
   uri = "public.ecr.aws/initializ/java-buildpack@sha256:e1a3052df0c6e10808a313c4acde9794702802e7afc58ccca3a120ede1a34514"
