@@ -32,12 +32,12 @@ api = "0.7"
 [[order]]
 
   [[order.group]]
-    id = "paketo-buildpacks/ca-certificates"
+    id = "initializ-buildpacks/ca-certificates"
     optional = true
     version = "3.6.7"
 
   [[order.group]]
-    id = "paketo-buildpacks/bellsoft-liberica"
+    id = "initializ-buildpacks/bellsoft-liberica"
     version = "10.4.4"
 
   [[order.group]]
@@ -51,7 +51,7 @@ api = "0.7"
     version = "3.1.0"
 
   [[order.group]]
-    id = "paketo-buildpacks/syft"
+    id = "initializ-buildpacks/syft"
     optional = true
     version = "1.42.0"
 
@@ -66,12 +66,12 @@ api = "0.7"
     version = "2.8.14"
 
   [[order.group]]
-    id = "paketo-buildpacks/gradle"
+    id = "initializ-buildpacks/gradle"
     optional = true
     version = "7.7.1"
 
   [[order.group]]
-    id = "paketo-buildpacks/maven"
+    id = "initializ-buildpacks/maven"
     optional = true
     version = "6.15.12"
 
@@ -86,7 +86,7 @@ api = "0.7"
     version = "2.8.7"
 
   [[order.group]]
-    id = "paketo-buildpacks/executable-jar"
+    id = "initializ-buildpacks/executable-jar"
     optional = true
     version = "6.8.3"
 
@@ -111,7 +111,7 @@ api = "0.7"
     version = "5.6.8"
 
   [[order.group]]
-    id = "paketo-buildpacks/spring-boot"
+    id = "initializ-buildpacks/spring-boot"
     optional = true
     version = "5.27.8"
 

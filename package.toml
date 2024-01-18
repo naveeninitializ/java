@@ -1,8 +1,8 @@
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/ca-certificates:3.6.7"
+  uri = "public.ecr.aws/initializ/java-buildpack@sha256:d3809b2c82bcf372429ace4014a25d2b1ce4a5ca9e6c234ec4c652dcbc403030"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/bellsoft-liberica:10.4.4"
+  uri = "public.ecr.aws/initializ/java-buildpack@sha256:e1a3052df0c6e10808a313c4acde9794702802e7afc58ccca3a120ede1a34514"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/yarn:1.2.0"
@@ -11,7 +11,7 @@
   uri = "docker://gcr.io/paketo-buildpacks/node-engine:3.1.0"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/syft:1.42.0"
+  uri = "public.ecr.aws/initializ/java-buildpack@sha256:a484f0cce50e4ba61029fe75fb5de2c9399fffc00f532eb4fe1cd96f78b44c71"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/leiningen:4.6.9"
@@ -20,10 +20,10 @@
   uri = "docker://gcr.io/paketo-buildpacks/clojure-tools:2.8.14"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/gradle:7.7.1"
+  uri = "public.ecr.aws/initializ/java-buildpack@sha256:2649c3247b1f064ee552a63644939eae7d44f1643642fb99ffc4229c626bec9a"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/maven:6.15.12"
+  uri = "public.ecr.aws/initializ/java-buildpack@sha256:e4bb50e9336cb80c2754b810d229bd0ae21b71d9401c2134d614fd66491cb25b"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/sbt:6.12.11"
@@ -32,7 +32,7 @@
   uri = "docker://gcr.io/paketo-buildpacks/watchexec:2.8.7"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/executable-jar:6.8.3"
+  uri = "public.ecr.aws/initializ/java-buildpack@sha256:949ac072a1e1a089bc28f02d5f1e8e9bcbccc72006ca1ce46bbbd6dbfadc4985"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/apache-tomcat:7.14.2"
@@ -47,7 +47,7 @@
   uri = "docker://gcr.io/paketo-buildpacks/dist-zip:5.6.8"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/spring-boot:5.27.8"
+  uri = "public.ecr.aws/initializ/java-buildpack@sha256:37bb9e9c8f02ba1ba5d30cea8166fbd97eca9808daceef687fbaf26dcc555578"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/procfile:5.6.8"
