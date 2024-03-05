@@ -2,25 +2,25 @@
   uri = "build/buildpack.tgz"
   
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/ca-certificates:3.6.7"
+  uri = "public.ecr.aws/initializ/buildpack/ca-certificates@sha256:be747c51b701557fe61855fdcedf60548617a479ee52b22ab7a479a2fd3f2d66"
 
 [[dependencies]]
   uri = "public.ecr.aws/initializ/java-buildpack@sha256:e1a3052df0c6e10808a313c4acde9794702802e7afc58ccca3a120ede1a34514"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/yarn:1.2.0"
+  uri = "docker://public.ecr.aws/initializ/nodejs@sha256:a27b03f34b66e6e42cdc39a940ceaa578c88e97733f08fb7079bb1dcf3be8386"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/node-engine:3.1.0"
+  uri = "docker://public.ecr.aws/initializ/nodejs@sha256:e6d3ec6cfeee5c9ca2cdb82c0659c5f3af496965473f37582dad91490434195f"
 
 [[dependencies]]
   uri = "public.ecr.aws/initializ/java-buildpack@sha256:a484f0cce50e4ba61029fe75fb5de2c9399fffc00f532eb4fe1cd96f78b44c71"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/leiningen:4.6.9"
+  uri = "public.ecr.aws/initializ/buildpack/leiningen@sha256:0d12c5e45bf9ecd7bdecd49dd29340e25180eff02471206e36a46cce4b6aa289"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/clojure-tools:2.8.14"
+  uri = "public.ecr.aws/initializ/buildpack/clojure-tools@sha256:001415bfec3fe36b510fa4d9e09c034fc07d3184a16c02e1d0b299fce117a243"
 
 [[dependencies]]
   uri = "public.ecr.aws/initializ/java-buildpack@sha256:2649c3247b1f064ee552a63644939eae7d44f1643642fb99ffc4229c626bec9a"
@@ -29,52 +29,52 @@
   uri = "public.ecr.aws/initializ/java-buildpack@sha256:e4bb50e9336cb80c2754b810d229bd0ae21b71d9401c2134d614fd66491cb25b"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/sbt:6.12.11"
+  uri = "public.ecr.aws/initializ/buildpack/sbt@sha256:59b9f6538432fc685017e42b7f25c5d346b32df09dea91c2f11d80d15fe4e154"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/watchexec:2.8.7"
+  uri = "public.ecr.aws/initializ/buildpack/watchexec@sha256:173e8b4b033df1353f2655fb62425e3b988634683d0f81db9d8e77907b51a666"
 
 [[dependencies]]
   uri = "public.ecr.aws/initializ/java-buildpack@sha256:949ac072a1e1a089bc28f02d5f1e8e9bcbccc72006ca1ce46bbbd6dbfadc4985"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/apache-tomcat:7.14.2"
+  uri = "public.ecr.aws/initializ/buildpack/apache-tomcat@sha256:99f504b8b6f66a464f883176df0212b5b7d0ec32cb7be01aacddb184a2fa4070"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/apache-tomee:1.8.0"
+  uri = "public.ecr.aws/initializ/buildpack/apache-tomee@sha256:88eb9cdbb951a46968ca4ac111ee8b1564cbce5967a4c6ef4c3843b11ab6a8b0"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/liberty:3.8.12"
+  uri = "public.ecr.aws/initializ/buildpack/liberty@sha256:bfb49b0e2db7d9b5d4d62915f8e0b1a4fc3e79de0d41d5b0da105a8f1c5ce530"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/dist-zip:5.6.8"
+  uri = "public.ecr.aws/initializ/buildpack/dist-zip@sha256:650dc4c4df8e508db25d6cde4bfba061a42441ec8d9bcc8a59b1f4c8c3a053ad"
 
 [[dependencies]]
   uri = "public.ecr.aws/initializ/java-buildpack@sha256:37bb9e9c8f02ba1ba5d30cea8166fbd97eca9808daceef687fbaf26dcc555578"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/procfile:5.6.8"
+  uri = "public.ecr.aws/initializ/buildpack/procfile@sha256:fe2979ecc343c1fe8cc13b8d9c0bd931d86503447be2fa5d3d299ecb7a35329e"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/jattach:1.4.9"
+  uri = "public.ecr.aws/initializ/buildpack/jattach@sha256:c5dae6cdf54035e3062240c3a763fb43030dc99eca713772d307dbd3e806f005"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/azure-application-insights:5.17.3"
+  uri = "public.ecr.aws/initializ/buildpack/azure-application-insights@sha256:caa8c52b6f56a623e39f2ccb6e4a4da249dc8aac9aab34cae3db5a14a95e540d"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/google-stackdriver:8.0.4"
+  uri = "public.ecr.aws/initializ/buildpack/google-stackdriver@sha256:61acfc1abd5f861772006cb42a4068ff7d9d727237ee512a6eeb3c73f6933f2a"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/datadog:4.8.0"
+  uri = "public.ecr.aws/initializ/buildpack/datadog@sha256:bb26aeea65786a4299c53a5f89d42e46ee71cfe44d5943fb12414e12a4efda50"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/java-memory-assistant:1.4.9"
+  uri = "public.ecr.aws/initializ/buildpack/java-memory-assistant@sha256:27a68302e7660d76cdae75ab23a5ab853c0cd62a3ecfc4739d728b27a909e043"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/encrypt-at-rest:4.5.13"
+  uri = "public.ecr.aws/initializ/buildpack/encrypt-at-rest@sha256:dcd805b213047e2d0f8224861fdc00f193deb6fa31a3c9c5bf9af61016c3f014"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/environment-variables:4.5.6"
+  uri = "public.ecr.aws/initializ/buildpack/environment-variables@sha256:f09abaa902044fd03b747c13e8b8330116afe0b6402cdfad8c391c5390e33167"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/image-labels:4.5.5"
+  uri = "public.ecr.aws/initializ/buildpack/image-labels@sha256:19ee94f0228880ee689ed9b652141c4d91de7f1ec8d49b21efd580b70dd15127"

@@ -16,7 +16,7 @@ api = "0.7"
 
 [buildpack]
   description = "A Cloud Native Buildpack with an order definition suitable for Java applications"
-  homepage = "https://paketo.io/docs/howto/java"
+  homepage = "https://github.com/initializ-buildpacks/java"
   id = "initializ-buildpacks/java"
   keywords = ["java", "composite"]
   name = "Initializ Buildpack for Java"
@@ -24,7 +24,7 @@ api = "0.7"
 
   [[buildpack.licenses]]
     type = "Apache-2.0"
-    uri = "https://github.com/paketo-buildpacks/java/blob/main/LICENSE"
+    uri = "https://github.com/initializ-buildpacks/java/blob/main/LICENSE"
 
 [metadata]
   include-files = ["LICENSE", "NOTICE", "README.md", "buildpack.toml"]
@@ -32,23 +32,23 @@ api = "0.7"
 [[order]]
 
   [[order.group]]
-    id = "paketo-buildpacks/ca-certificates"
+    id = "initializ-buildpacks/ca-certificates"
     optional = true
-    version = "3.6.7"
+    version = "3.6.9"
 
   [[order.group]]
     id = "initializ-buildpacks/bellsoft-liberica"
     version = "10.4.4"
 
   [[order.group]]
-    id = "paketo-buildpacks/yarn"
+    id = "initializ-buildpacks/yarn"
     optional = true
-    version = "1.2.0"
+    version = "1.2.2"
 
   [[order.group]]
-    id = "paketo-buildpacks/node-engine"
+    id = "initializ-buildpacks/node-engine"
     optional = true
-    version = "3.1.0"
+    version = "3.0.2"
 
   [[order.group]]
     id = "initializ-buildpacks/syft"
@@ -56,14 +56,14 @@ api = "0.7"
     version = "1.42.0"
 
   [[order.group]]
-    id = "paketo-buildpacks/leiningen"
+    id = "initializ-buildpacks/leiningen"
     optional = true
-    version = "4.6.9"
+    version = "4.7.0"
 
   [[order.group]]
-    id = "paketo-buildpacks/clojure-tools"
+    id = "initializ-buildpacks/clojure-tools"
     optional = true
-    version = "2.8.14"
+    version = "2.8.15"
 
   [[order.group]]
     id = "initializ-buildpacks/gradle"
@@ -76,14 +76,14 @@ api = "0.7"
     version = "6.15.12"
 
   [[order.group]]
-    id = "paketo-buildpacks/sbt"
+    id = "initializ-buildpacks/sbt"
     optional = true
-    version = "6.12.11"
+    version = "6.12.12"
 
   [[order.group]]
-    id = "paketo-buildpacks/watchexec"
+    id = "initializ-buildpacks/watchexec"
     optional = true
-    version = "2.8.7"
+    version = "2.8.8"
 
   [[order.group]]
     id = "initializ-buildpacks/executable-jar"
@@ -91,24 +91,24 @@ api = "0.7"
     version = "6.8.3"
 
   [[order.group]]
-    id = "paketo-buildpacks/apache-tomcat"
+    id = "initializ-buildpacks/apache-tomcat"
     optional = true
-    version = "7.14.2"
+    version = "7.15.0"
 
   [[order.group]]
-    id = "paketo-buildpacks/apache-tomee"
+    id = "initializ-buildpacks/apache-tomee"
     optional = true
     version = "1.8.0"
 
   [[order.group]]
-    id = "paketo-buildpacks/liberty"
+    id = "initializ-buildpacks/liberty"
     optional = true
     version = "3.8.12"
 
   [[order.group]]
-    id = "paketo-buildpacks/dist-zip"
+    id = "initializ-buildpacks/dist-zip"
     optional = true
-    version = "5.6.8"
+    version = "5.6.9"
 
   [[order.group]]
     id = "initializ-buildpacks/spring-boot"
@@ -116,46 +116,46 @@ api = "0.7"
     version = "5.27.8"
 
   [[order.group]]
-    id = "paketo-buildpacks/procfile"
+    id = "initializ-buildpacks/procfile"
     optional = true
-    version = "5.6.8"
+    version = "5.6.9"
 
   [[order.group]]
-    id = "paketo-buildpacks/jattach"
+    id = "initializ-buildpacks/jattach"
     optional = true
-    version = "1.4.9"
+    version = "1.6.0"
 
   [[order.group]]
-    id = "paketo-buildpacks/azure-application-insights"
+    id = "initializ-buildpacks/azure-application-insights"
     optional = true
-    version = "5.17.3"
+    version = "5.17.4"
 
   [[order.group]]
-    id = "paketo-buildpacks/google-stackdriver"
+    id = "initializ-buildpacks/google-stackdriver"
     optional = true
-    version = "8.0.4"
+    version = "9.0.0"
 
   [[order.group]]
-    id = "paketo-buildpacks/datadog"
+    id = "initializ-buildpacks/datadog"
     optional = true
     version = "4.8.0"
 
   [[order.group]]
-    id = "paketo-buildpacks/java-memory-assistant"
+    id = "initializ-buildpacks/java-memory-assistant"
     optional = true
-    version = "1.4.9"
+    version = "1.4.10"
 
   [[order.group]]
-    id = "paketo-buildpacks/encrypt-at-rest"
+    id = "initializ-buildpacks/encrypt-at-rest"
     optional = true
-    version = "4.5.13"
+    version = "4.5.16"
 
   [[order.group]]
-    id = "paketo-buildpacks/environment-variables"
+    id = "initializ-buildpacks/environment-variables"
     optional = true
-    version = "4.5.6"
+    version = "4.5.7"
 
   [[order.group]]
-    id = "paketo-buildpacks/image-labels"
+    id = "initializ-buildpacks/image-labels"
     optional = true
     version = "4.5.5"
