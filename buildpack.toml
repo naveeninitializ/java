@@ -38,7 +38,7 @@ api = "0.7"
 
   [[order.group]]
     id = "initializ-buildpacks/bellsoft-liberica"
-    version = "10.4.4"
+    version = "10.5.3"
 
   [[order.group]]
     id = "initializ-buildpacks/yarn"
@@ -53,7 +53,7 @@ api = "0.7"
   [[order.group]]
     id = "initializ-buildpacks/syft"
     optional = true
-    version = "1.42.0"
+    version = "1.45.1"
 
   [[order.group]]
     id = "initializ-buildpacks/leiningen"
@@ -68,12 +68,12 @@ api = "0.7"
   [[order.group]]
     id = "initializ-buildpacks/gradle"
     optional = true
-    version = "7.7.1"
+    version = "7.8.1"
 
   [[order.group]]
     id = "initializ-buildpacks/maven"
     optional = true
-    version = "6.15.12"
+    version = "6.15.13"
 
   [[order.group]]
     id = "initializ-buildpacks/sbt"
@@ -88,7 +88,7 @@ api = "0.7"
   [[order.group]]
     id = "initializ-buildpacks/executable-jar"
     optional = true
-    version = "6.8.3"
+    version = "6.8.4"
 
   [[order.group]]
     id = "initializ-buildpacks/apache-tomcat"
@@ -113,7 +113,7 @@ api = "0.7"
   [[order.group]]
     id = "initializ-buildpacks/spring-boot"
     optional = true
-    version = "5.27.8"
+    version = "5.27.10"
 
   [[order.group]]
     id = "initializ-buildpacks/procfile"
