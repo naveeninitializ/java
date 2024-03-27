@@ -2,79 +2,79 @@
   uri = "build/buildpack.tgz"
   
 [[dependencies]]
-  uri = "public.ecr.aws/initializ/buildpack/ca-certificates@sha256:be747c51b701557fe61855fdcedf60548617a479ee52b22ab7a479a2fd3f2d66"
+  uri = "index.docker.io/initializbuildpacks/ca-certificates@sha256:cf3c07c30bc3580f977ae000e4b41093f43b3b0bc8e066042c4cf02219c8d8c8"
 
 [[dependencies]]
-  uri = "public.ecr.aws/initializ/buildpack/bellsoft-liberica@sha256:a0589d2cbf430776a03aace22eddfc5394d06b30a6d7a4a2c8ba96426fbdfd4a"
+  uri = "index.docker.io/initializbuildpacks/bellsoft-liberica@sha256:ad867cb9ea6fa49db0bbc9387a093ee18c3ba763fe674475e50f340afb0762b3"
 
 [[dependencies]]
-  uri = "docker://public.ecr.aws/initializ/nodejs@sha256:a27b03f34b66e6e42cdc39a940ceaa578c88e97733f08fb7079bb1dcf3be8386"
+  uri = "index.docker.io/initializbuildpacks/yarn@sha256:2573176f2e2ea13528f5427420b205eaaab6b99a2621d66a1447008b8428f186"
 
 [[dependencies]]
-  uri = "docker://public.ecr.aws/initializ/nodejs@sha256:e6d3ec6cfeee5c9ca2cdb82c0659c5f3af496965473f37582dad91490434195f"
+  uri = "index.docker.io/initializbuildpacks/node-engine@sha256:d1f19456388981b020c6a92f3268b3f076639f671443d0e0d6ef73fb3bce0f35"
 
 [[dependencies]]
-  uri = "public.ecr.aws/initializ/buildpack/syft@sha256:82deb693b1b3143d35de44007fdeb811602bf36bfbcf7a15aa84f69c1441213a"
+  uri = "index.docker.io/initializbuildpacks/syft@sha256:a616634012c2483c9691916f685cf6d6d09e9c27e481711220900b5ee853d968"
 
 [[dependencies]]
-  uri = "public.ecr.aws/initializ/buildpack/leiningen@sha256:0d12c5e45bf9ecd7bdecd49dd29340e25180eff02471206e36a46cce4b6aa289"
+  uri = "index.docker.io/initializbuildpacks/leiningen@sha256:9f6cc42cdab79a0317d87d5a36e846f1f31d10a1d9aef7deda442bbf071da58a"
 
 [[dependencies]]
   uri = "public.ecr.aws/initializ/buildpack/clojure-tools@sha256:001415bfec3fe36b510fa4d9e09c034fc07d3184a16c02e1d0b299fce117a243"
 
 [[dependencies]]
-  uri = "public.ecr.aws/initializ/buildpack/gradle@sha256:e9521806430372386773f4d72e71de61548001fac0d5f61e14abd3212b0904f2"
+  uri = "index.docker.io/initializbuildpacks/clojure-tools@sha256:c2910ab9c22f787a8dbcfa5eb573bb7e5e0aac35eb3ecdb2c6e28e27e20f198e"
 
 [[dependencies]]
-  uri = "public.ecr.aws/initializ/buildpack/maven@sha256:a6b52e5c515b95846ce6d90db04e5af9635eac3b4a90ac840dc6dfa31b4e58dc"
+  uri = "index.docker.io/initializbuildpacks/maven@sha256:cc9b7f1dafcae87cda32cb7aeb44daf326dda8ad19c1b5a53b57bfc18d5a4d64"
 
 [[dependencies]]
-  uri = "public.ecr.aws/initializ/buildpack/sbt@sha256:59b9f6538432fc685017e42b7f25c5d346b32df09dea91c2f11d80d15fe4e154"
+  uri = "index.docker.io/initializbuildpacks/sbt@sha256:37f4ac5a9f2fba1cce52588dc5260850475592e15080b17f9a5adec88bfe0b2f"
 
 [[dependencies]]
-  uri = "public.ecr.aws/initializ/buildpack/watchexec@sha256:173e8b4b033df1353f2655fb62425e3b988634683d0f81db9d8e77907b51a666"
+  uri = "index.docker.io/initializbuildpacks/watchexec@sha256:c0149216f3da9c5d424009df8257bd3b9432b3148aba995cc1b16e5ddd6660f3"
 
 [[dependencies]]
-  uri = "public.ecr.aws/initializ/buildpack/executable-jar@sha256:82d19f17e2ddbf0f4ab8943e08013cb97f78e8e08b5f67caf9595538c64481f8"
+  uri = "index.docker.io/initializbuildpacks/executable-jar@sha256:2fd9e9d108aaa5d373457d5caa55bc86d994c41c25dcf84c23a6496b85e0a9e7"
 
 [[dependencies]]
-  uri = "public.ecr.aws/initializ/buildpack/apache-tomcat@sha256:99f504b8b6f66a464f883176df0212b5b7d0ec32cb7be01aacddb184a2fa4070"
+  uri = "index.docker.io/initializbuildpacks/apache-tomcat@sha256:6b54e9f34e27495afeba9fb1f9e1e24f6942f6b156792ad462d00a0b77c9e148"
 
 [[dependencies]]
-  uri = "public.ecr.aws/initializ/buildpack/apache-tomee@sha256:88eb9cdbb951a46968ca4ac111ee8b1564cbce5967a4c6ef4c3843b11ab6a8b0"
+  uri = "index.docker.io/initializbuildpacks/apache-tomee@sha256:1f53d0ad804215b44e5f013925a96c10d0516c595bcd957cbdf13d7e6c5e9303"
 
 [[dependencies]]
-  uri = "public.ecr.aws/initializ/buildpack/liberty@sha256:bfb49b0e2db7d9b5d4d62915f8e0b1a4fc3e79de0d41d5b0da105a8f1c5ce530"
+  uri = "index.docker.io/initializbuildpacks/liberty@sha256:2f86b634523203318e9ec5017ffe3a7138534600dc9feec23c295e39a924534d"
 
 [[dependencies]]
-  uri = "public.ecr.aws/initializ/buildpack/dist-zip@sha256:650dc4c4df8e508db25d6cde4bfba061a42441ec8d9bcc8a59b1f4c8c3a053ad"
+  uri = "index.docker.io/initializbuildpacks/dist-zip@sha256:4a4d91e30bf7d8160a672cf2a9bc6a5b67ebd9a99ab386b032cf2d0f4e66e259"
 
 [[dependencies]]
-  uri = "public.ecr.aws/initializ/buildpack/spring-boot@sha256:33e2867d989eb4b1faf4e7b4c089f58beab1f886b8d902ae2b915a8c6f2e30db"
+  uri = "index.docker.io/initializbuildpacks/spring-boot@sha256:177aaf216c9895690a69aa0d3b2414b3eb4bb49e921e996ffa49e966db9c77ed"
 
 [[dependencies]]
-  uri = "public.ecr.aws/initializ/buildpack/procfile@sha256:f9f9558b1ead4e8fc781b5e62df54eac074c2a240bab99737b4c824c6e6f3712"
+  uri = "index.docker.io/initializbuildpacks/procfile@sha256:bd23a2d42c75721f49ab15964e24cb9080427b17c2a7b25db710b30c2761540c"
 
 [[dependencies]]
-  uri = "public.ecr.aws/initializ/buildpack/jattach@sha256:c5dae6cdf54035e3062240c3a763fb43030dc99eca713772d307dbd3e806f005"
+  uri = "index.docker.io/initializbuildpacks/jattach@sha256:a75de97b0e339412d754ef515709ba85538106f9bbc065113104dbb6130b37e9"
 
 [[dependencies]]
-  uri = "public.ecr.aws/initializ/buildpack/azure-application-insights@sha256:caa8c52b6f56a623e39f2ccb6e4a4da249dc8aac9aab34cae3db5a14a95e540d"
+  uri = "index.docker.io/initializbuildpacks/azure-application-insights@sha256:f2d27d09a9edbdd9ae2e45d9d30b619938f619577ad748a2940804df46a33f2d"
 
 [[dependencies]]
-  uri = "public.ecr.aws/initializ/buildpack/google-stackdriver@sha256:61acfc1abd5f861772006cb42a4068ff7d9d727237ee512a6eeb3c73f6933f2a"
+  uri = "index.docker.io/initializbuildpacks/google-stackdriver@sha256:6a07af2956a8fc20df78a821743cdd169688bf434b5b28409611cdfc886b434e"
 
 [[dependencies]]
-  uri = "public.ecr.aws/initializ/buildpack/datadog@sha256:bb26aeea65786a4299c53a5f89d42e46ee71cfe44d5943fb12414e12a4efda50"
+  uri = "index.docker.io/initializbuildpacks/datadog@sha256:43d5b088ed5ca5cade46d73052aa4e42ece929b6c157241488cfa243a9db6c0d"
 
 [[dependencies]]
-  uri = "public.ecr.aws/initializ/buildpack/java-memory-assistant@sha256:27a68302e7660d76cdae75ab23a5ab853c0cd62a3ecfc4739d728b27a909e043"
+  uri = "index.docker.io/initializbuildpacks/java-memory-assistant@sha256:3bfd819b3c10b6b9622eb13c63698fb1fa4f712e2e4431dc6632ea393f950332"
 
 [[dependencies]]
-  uri = "public.ecr.aws/initializ/buildpack/encrypt-at-rest@sha256:dcd805b213047e2d0f8224861fdc00f193deb6fa31a3c9c5bf9af61016c3f014"
+  uri = "index.docker.io/initializbuildpacks/encrypt-at-rest@sha256:9a2c8a08b52a58929b2598e547a713db75b6a506c1cde438a544cd03ae3d56b1"
 
 [[dependencies]]
-  uri = "public.ecr.aws/initializ/buildpack/environment-variables@sha256:f09abaa902044fd03b747c13e8b8330116afe0b6402cdfad8c391c5390e33167"
+  uri = "index.docker.io/initializbuildpacks/environment-variables@sha256:2edb6355904423441837f691d85a624491254e18cda5a4634db72b1f16f8be0d"
 
 [[dependencies]]
-  uri = "public.ecr.aws/initializ/buildpack/image-labels@sha256:19ee94f0228880ee689ed9b652141c4d91de7f1ec8d49b21efd580b70dd15127"
+  uri = "index.docker.io/initializbuildpacks/image-labels@sha256:8f9097e72a3e3fc92937f116c4cd8a7e67b232079d9413686e023aeb6afb9f88"
